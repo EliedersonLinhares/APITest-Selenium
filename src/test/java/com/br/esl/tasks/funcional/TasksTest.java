@@ -41,7 +41,7 @@ public class TasksTest {
 		//clicar em salvar
 		driver.findElement(By.id("saveButton")).click();
 		
-		//validar a mensagem de sucesso
+		//validar a mensagem de sucesso 2
 		String message = driver.findElement(By.id("message")).getText();
 		Assert.assertEquals("Success!", message);
 		
