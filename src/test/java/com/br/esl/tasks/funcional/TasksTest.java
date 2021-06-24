@@ -32,7 +32,7 @@ public class TasksTest {
 		//clicar em Add todo
 		driver.findElement(By.id("addTodo")).click();
 		
-		//escrever uma descrição
+		//escrever uma descriï¿½ï¿½o
 		driver.findElement(By.id("task")).sendKeys("Teste via Selenium");
 		
 		//escrever a data
@@ -40,10 +40,11 @@ public class TasksTest {
 		
 		//clicar em salvar
 		driver.findElement(By.id("saveButton")).click();
-		
-		//validar a mensagem de sucesso 2
+	
+		//validar a mensagem de sucesso
 		String message = driver.findElement(By.id("message")).getText();
 		Assert.assertEquals("Success!", message);
+		
 		
 		}finally{
 			//clicar em sair
@@ -60,7 +61,7 @@ public class TasksTest {
 		//clicar em Add todo
 		driver.findElement(By.id("addTodo")).click();
 		
-		//escrever uma descrição
+		//escrever uma descriï¿½ï¿½o
 		//driver.findElement(By.id("task")).sendKeys("Teste via Selenium");
 		
 		//escrever a data
@@ -88,7 +89,7 @@ public class TasksTest {
 		//clicar em Add todo
 		driver.findElement(By.id("addTodo")).click();
 		
-		//escrever uma descrição
+		//escrever uma descriï¿½ï¿½o
 		driver.findElement(By.id("task")).sendKeys("Teste via Selenium");
 		
 		//escrever a data
@@ -116,7 +117,7 @@ public class TasksTest {
 		//clicar em Add todo
 		driver.findElement(By.id("addTodo")).click();
 		
-		//escrever uma descrição
+		//escrever uma descriï¿½ï¿½o
 		driver.findElement(By.id("task")).sendKeys("Teste via Selenium");
 		
 		//escrever a data
