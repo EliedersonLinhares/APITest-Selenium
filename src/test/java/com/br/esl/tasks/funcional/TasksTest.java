@@ -42,8 +42,8 @@ public class TasksTest {
 		driver.findElement(By.id("saveButton")).click();
 	
 		//validar a mensagem de sucesso
-		String message = driver.findElement(By.id("message")).getText();
-		Assert.assertEquals("Success!", message);
+		//String message = driver.findElement(By.id("message")).getText();
+		Assert.assertEquals("Success!", driver.findElement(By.id("message")).getText());
 		
 		
 		}finally{
@@ -71,8 +71,8 @@ public class TasksTest {
 		driver.findElement(By.id("saveButton")).click();
 		
 		//validar a mensagem de sucesso
-		String message = driver.findElement(By.id("message")).getText();
-		Assert.assertEquals("Fill the task description", message);
+		//String message = driver.findElement(By.id("message")).getText();
+		Assert.assertEquals("Fill the task description", driver.findElement(By.id("message")).getText());
 		
 		}finally{
 			//clicar em sair
@@ -99,8 +99,8 @@ public class TasksTest {
 		driver.findElement(By.id("saveButton")).click();
 		
 		//validar a mensagem de sucesso
-		String message = driver.findElement(By.id("message")).getText();
-		Assert.assertEquals("Fill the due date", message);
+		//String message = driver.findElement(By.id("message")).getText();
+		Assert.assertEquals("Fill the due date", driver.findElement(By.id("message")).getText());
 		
 		}finally{
 			//clicar em sair
@@ -127,8 +127,8 @@ public class TasksTest {
 		driver.findElement(By.id("saveButton")).click();
 		
 		//validar a mensagem de sucesso2
-		String message = driver.findElement(By.id("message")).getText();
-		Assert.assertEquals("Due date must not be in past", message);
+		//String message = driver.findElement(By.id("message")).getText();
+		Assert.assertEquals("Due date must not be in past", driver.findElement(By.id("message")).getText());
 		
 		}finally{
 			//clicar em sair
