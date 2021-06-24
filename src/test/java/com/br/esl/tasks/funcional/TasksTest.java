@@ -126,7 +126,7 @@ public class TasksTest {
 		//clicar em salvar
 		driver.findElement(By.id("saveButton")).click();
 		
-		//validar a mensagem de sucesso
+		//validar a mensagem de sucesso2
 		String message = driver.findElement(By.id("message")).getText();
 		Assert.assertEquals("Due date must not be in past", message);
 		
